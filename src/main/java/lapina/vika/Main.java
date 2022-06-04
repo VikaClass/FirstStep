@@ -12,5 +12,7 @@ public class Main {
         SelenideElement googleSearch = $(By.xpath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input"));
         googleSearch.setValue("Котики");
         googleSearch.pressEnter();
+
+        System.out.println("END");
     }
 }
