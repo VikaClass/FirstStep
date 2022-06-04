@@ -13,6 +13,6 @@ public class Main {
         googleSearch.setValue("Котики");
         googleSearch.pressEnter();
 
-        System.out.println("END");
+        System.out.println("Closed browser");
     }
 }
